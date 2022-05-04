@@ -103,17 +103,17 @@ Trusted Execution Environments or TEEs solve a notoriously difficult problem -  
 
 To solve this problem, TEEs provide the ability to:
 
-- Keep cryptographic key material secret
+- Keep cryptographic key material secret.
 
-- Prevent other people from spying or seeing transactions happen, including the owner or operator of the TEE
+- Prevent other people from spying or seeing transactions happen, including the owner or operator of the TEE.
 
-- Search encrypted, sensitive data
+- Search encrypted, sensitive data.
 
-- Sign with cryptographic keys
+- Sign with cryptographic keys.
 
-- Execute code with complete privacy
+- Execute code with complete privacy.
 
-- Attest to the code to provide guarantees that what you think is running really is running
+- Attest to the code to provide guarantees that what you think is running really is running.
 
 Solving all of the above is an unsolved problem without the use of TEEs. Zero-knowledge proofs cannot solve this set of problems, and homomorphic encryption is still in its infancy. TEEs provide a pragmatic, elegant solution.
 
@@ -122,11 +122,11 @@ The blog post [here](https://obscuro.substack.com/p/how-the-medicis-invented-con
 ### Intel SGX
 There exist multiple TEE options. These include:
 
-- Intel's platform called Software Guard Extensions, or SGX for short
+- Intel's platform called Software Guard Extensions, or SGX for short.
 
-- AMD's SEV, which is similar to SGX
+- AMD's SEV, which is similar to SGX.
 
-- ARM's TrustZone, which lives inside the majority of ARM chips
+- ARM's TrustZone, which lives inside the majority of ARM chips.
 
 Obscuro focuses initially on Intel's SGX. This decision is based on the depth of the SGX solution and how battle-hardened it has become over the years. In addition, Intel has recently announced they are doubling down on their server-side SGX offerings in response to the huge number of new use-cases arising. <add link>
 
