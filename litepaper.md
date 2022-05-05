@@ -40,8 +40,6 @@ Obscuro provides an entirely new and compelling experience for NFT artists and h
 
 With Obscuro, artists can create an NFT that initially appears mundane or common, but a secret is embedded in the smart contract. When this secret is triggered by an external event like a full moon in Tasmania, the NFT changes to something rare and exciting, potentially collaborating with another well-known NFT collection or unlocking an entirely different reward, such as hidden crypto. This is an entirely new way for artists to engage with their audience.
 
-The unknown embedded within the Obscuro also provides for an entirely new dimension in NFT speculation.
-
 ### Gaming
 Games that rely on player actions and positions being secret are impossible on today's transparent blockchains without computational privacy. With Obscuro, games such as Civilisation, Starcraft and other "fog of war" type games become a reality. The paradigm can begin to shift from "Play to Earn' to 'Pay to Play' as AAA games start to emerge with embedded NFTs are crypto prizes that are kept hidden, with absolute certainty, even from the developers of the games.
 
