@@ -9,6 +9,15 @@ Obscuro leverages a pragmatic technology for encrypting the ledger, Trusted Exec
 
 Obscuro uses Confidential Rollups, a new type of roll-up inspired by existing roll-up-based L2 offerings Optimistic and ZK Rollups. The use of [confidential computing techniques](https://www.intel.co.uk/content/www/uk/en/security/confidential-computing.html) and economic incentives allows Obscuro to retain the performance and programming model simplicity of Optimistic roll-ups and attain confidentiality, short withdrawal periods, and address MEV.
 
+## Users
+Obscuro seeks to improve the experience for three groups. The first is retail users, who enjoy the benefits of DeFi (Decentralised Finance), but find that they are taken advantage of by Ethereum miners or stakers, who can observe their transactions and front-run those which represent profitable trades. Or they are keen to use DeFi, but won't until it provides the same privacy guarantees that TradFi (Traditional Finance) does. 
+
+While the cost of visibility of online activity charged by Big Tech in Web2 was exposure to targeted advertisements, in the "Internet of Value" Web3 world, the cost of visibility will be more expensive services. The adage "If you don't know what the product is, you are the product" will be truer than ever. [This](https://obscuro.substack.com/p/a-day-in-the-life-of-a-blockchain) blog post explores how the utopia we're designing could quickly become a dystopia without privacy. 
+  
+The second group is corporate users. The Obscuro core team being ex-R3, discovered early through building the leading consortium of global banks that privacy of sensitive trading details between counterparties is not a nice-to-have; it's mandatory. This requirement underpinned the "need to know" philosophy of R3's Corda. So far, corporate users have been slow to transact on Ethereum, despite the attraction of its innovation culture, and Obscuro believes that making an Ethereum network confidential will unleash a new category of business applications.  
+  
+The third group is a set of applications which can't work if the smart contracts don't hold secrets. Until now, Ethereum contracts have had autonomy and agency; end-users can send Ether and ERC20 token value to a smart contract, and this contract determines how to distribute that value. With Obscuro, contracts now also hold secrets in the way human agents can, and have the power to surprise users. For example, an Obscuro contract can determine if an NFT can "shape-shift" or change shape based on external events such as a full moon, or be used to manage the game board of an interactive game in a way which prevents players from "seeing round the corner" or otherwise cheating.
+
 ## Example Use Cases
 Obscuro supports transactional and computational privacy, which opens up a whole new world of use-cases.
 
@@ -53,7 +62,7 @@ Another example is publishing the result of a poker game played inside Obscuro, 
 The challenge for achieving this functionality is that the data originating in L2 has to be final. Luckily Obscuro has this mechanism already in place for processing withdrawals.
 
 ## Obscuro introduces
-Obscuro introduces a new type of roll-up called 'Confidential roll-ups'. When combined with the POBI protocol, they provide several advantages over existing Layer-2s and other privacy networks:
+Obscuro introduces a new type of roll-up called 'Confidential roll-ups'. When combined with the Proof of Block Inclusion (POBI) protocol, they provide several advantages over existing Layer-2s and other privacy networks:
 
 - Unlike other Layer-2s, Obscuro is trustless and decentralised from day one. It takes processing from the Ethereum Layer-1 (L1) and allows lower transaction costs similar to other Layer-2 (L2) networks.
 
@@ -117,7 +126,7 @@ Solving all of the above is an unsolved problem without the use of TEEs. Zero-kn
 
 The blog post [here](https://obscuro.substack.com/p/how-the-medicis-invented-confidential) presents a great mental model.
 
-### Intel SGX
+#### Intel SGX
 There exist multiple TEE options. These include:
 
 - Intel's platform called Software Guard Extensions, or SGX for short.
@@ -166,7 +175,7 @@ The problems confidential roll-ups solve include:
 
 - Last but not least, total privacy over the entire L2 by encrypting the ledger.
 
-## POBI
+## Proof of Block Inclusion (POBI)
 Obscuro introduces a novel protocol called Proof of Block Inclusion. It is this protocol that drives the consensus for confidential roll-ups.
 
 The protocol is responsible for:
@@ -203,14 +212,7 @@ The OBX Token will be issued as a utility token. The token has four primary uses
 
 - A way to incentivise ecosystem development via grants and competitions.
 
-## Users
-Obscuro seeks to improve the experience for three groups. The first is retail users, who enjoy the benefits of DeFi (Decentralised Finance), but find that they are taken advantage of by Ethereum miners or stakers, who can observe their transactions and front-run those which represent profitable trades. Or they are keen to use DeFi, but won't until it provides the same privacy guarantees that TradFi (Traditional Finance) does. 
-
-While the cost of visibility of online activity charged by Big Tech in Web2 was exposure to targeted advertisements, in the "Internet of Value" Web3 world, the cost of visibility will be more expensive services. The adage "If you don't know what the product is, you are the product" will be truer than ever. [This](https://obscuro.substack.com/p/a-day-in-the-life-of-a-blockchain) blog post explores how the utopia we're designing could quickly become a dystopia without privacy. 
-  
-The second group is corporate users. The Obscuro core team being ex-R3, discovered early through building the leading consortium of global banks that privacy of sensitive trading details between counterparties is not a nice-to-have; it's mandatory. This requirement underpinned the "need to know" philosophy of R3's Corda. So far, corporate users have been slow to transact on Ethereum, despite the attraction of its innovation culture, and Obscuro believes that making an Ethereum network confidential will unleash a new category of business applications.  
-  
-The third group is a set of applications which can't work if the smart contracts don't hold secrets. Until now, Ethereum contracts have had autonomy and agency; end-users can send Ether and ERC20 token value to a smart contract, and this contract determines how to distribute that value. With Obscuro, contracts now also hold secrets in the way human agents can, and have the power to surprise users. For example, an Obscuro contract can determine if an NFT can "shape-shift" or change shape based on external events such as a full moon, or be used to manage the game board of an interactive game in a way which prevents players from "seeing round the corner" or otherwise cheating.
+See the separate Tokenomics paper for a more in-depth discussion.
 
 ## Team
 Obscuro's core team is part of the team that built Corda, regarded as the world's most [successful enterprise blockchain platform](https://www.r3.com/gartner-2020-blockchain-report/). Corda is used by the world's leading banks, financial institutions, insurance institutions and telecommunications.
