@@ -21,6 +21,13 @@ The third group is a set of applications which can't work if the smart contracts
 ## Example Use Cases
 Obscuro supports transactional and computational privacy, which opens up a whole new world of use-cases.
 
+### Programmable privacy for DeFi
+Liquidation Hunting is where whales hunt for loans close to liquidation and push prices down to force liquidation. This behaviour creates huge volatility for everyone and a miserable experience for users forced into liquidation. Obscuro's programmable privacy allows developers to choose what they want to keep private and what they want to make public at a granular level. How does this apply to Liquidation Hunting? A developer can take an existing borrowing protocol and choose to have everything public, except for individual liquidation levels. Only if the liquidation levels get hit do they become public — an example of a simple change resulting in a much fairer protocol.
+
+### Private Name Service
+ENS is a naming system that maps human-readable aliases like 'bob.eth' to Ethereum addresses. So when Alice asks for Bob's address to send tokens, Bob can say 'bob.eth' instead of the cumbersome 0x Ethereum address.
+The drawback to this is the lack of privacy. Alice can now see Bob's complete account balance and entire transaction history. By using confidential smart contracts on Obscuro, the alias created cannot be linked to the underlying addresses allowing your balances to remain anonymous even on the L1.
+
 ### Sealed Bid Auction
 In a sealed bid auction, bidders privately submit their one best offer in writing in a sealed envelope. The bids are opened privately by the auctioneer and seller. They do not reveal the bids to any of the participants.
 
@@ -216,3 +223,6 @@ See the separate Tokenomics paper for a more in-depth discussion.
 
 ## Team
 Obscuro's core team is part of the team that built Corda, regarded as the world's most [successful enterprise blockchain platform](https://www.r3.com/gartner-2020-blockchain-report/). Corda is used by the world's leading banks, financial institutions, insurance institutions and telecommunications.
+
+## Contributors
+Thank you to Jommi and Polo for contributing their use-case ideas.
