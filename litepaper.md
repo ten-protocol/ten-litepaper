@@ -68,8 +68,6 @@ Another example is publishing the result of a poker game played inside Obscuro, 
 
 The challenge for achieving this functionality is that the data originating in L2 has to be final. Luckily Obscuro has this mechanism already in place for processing withdrawals.
 
-#### Thank you to Jommi and Polo for contributing their ideas to the use-cases.
-
 ## Obscuro introduces
 Obscuro introduces a new type of roll-up called 'Confidential roll-ups'. When combined with the Proof of Block Inclusion (POBI) protocol, they provide several advantages over existing Layer-2s and other privacy networks:
 
@@ -225,3 +223,6 @@ See the separate Tokenomics paper for a more in-depth discussion.
 
 ## Team
 Obscuro's core team is part of the team that built Corda, regarded as the world's most [successful enterprise blockchain platform](https://www.r3.com/gartner-2020-blockchain-report/). Corda is used by the world's leading banks, financial institutions, insurance institutions and telecommunications.
+
+## Contributors
+Thank you to Jommi and Polo for contributing their use-case ideas.
